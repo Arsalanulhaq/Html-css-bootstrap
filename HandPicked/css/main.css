@@ -1,0 +1,341 @@
+body {
+	background-color: #fff;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+@media (min-width:992px) {
+ .container {
+width:1200px;
+}
+}
+header {
+	background-color: rgb(105, 19, 19);
+}
+.navigation {
+	color:#fff;
+	margin-top:2px;
+	margin-left: 12px;
+	background:url(../images/mainNavBg.jpg) no-repeat;
+	height:52px;
+}
+.navigation ul {
+	list-style-type: none;
+	margin-top:15px;
+}
+.navigation ul li {
+	float: left;
+	letter-spacing: 1px;
+}
+.navigation li a {
+	font-size: 18px;
+	color: #fff;
+	font-family:Franklin Gothic;
+	letter-spacing: 0px;
+	text-decoration: none;
+	margin-left: 5px;
+	padding: 16px 15px 13px 15px;
+}
+.navigation li a:hover {
+background: #d93f3f; /* Old browsers */
+	background: -moz-linear-gradient(top, #d93f3f 0%, #fa5053 2%, #ff4e53 4%, #f54d4c 8%, #f44b4e 15%, #ee4b50 17%, #e7484c 25%, #de4347 31%, #d84646 33%, #ca4340 44%, #c7413e 48%, #c83d42 50%, #952b2f 81%, #8e292d 83%, #8b282b 88%, #852728 90%, #7d282b 92%, #431716 96%, #2a0e0b 98%, #0e0506 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d93f3f), color-stop(2%, #fa5053), color-stop(4%, #ff4e53), color-stop(8%, #f54d4c), color-stop(15%, #f44b4e), color-stop(17%, #ee4b50), color-stop(25%, #e7484c), color-stop(31%, #de4347), color-stop(33%, #d84646), color-stop(44%, #ca4340), color-stop(48%, #c7413e), color-stop(50%, #c83d42), color-stop(81%, #952b2f), color-stop(83%, #8e292d), color-stop(88%, #8b282b), color-stop(90%, #852728), color-stop(92%, #7d282b), color-stop(96%, #431716), color-stop(98%, #2a0e0b), color-stop(100%, #0e0506)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d93f3f 0%, #fa5053 2%, #ff4e53 4%, #f54d4c 8%, #f44b4e 15%, #ee4b50 17%, #e7484c 25%, #de4347 31%, #d84646 33%, #ca4340 44%, #c7413e 48%, #c83d42 50%, #952b2f 81%, #8e292d 83%, #8b282b 88%, #852728 90%, #7d282b 92%, #431716 96%, #2a0e0b 98%, #0e0506 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d93f3f 0%, #fa5053 2%, #ff4e53 4%, #f54d4c 8%, #f44b4e 15%, #ee4b50 17%, #e7484c 25%, #de4347 31%, #d84646 33%, #ca4340 44%, #c7413e 48%, #c83d42 50%, #952b2f 81%, #8e292d 83%, #8b282b 88%, #852728 90%, #7d282b 92%, #431716 96%, #2a0e0b 98%, #0e0506 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d93f3f 0%, #fa5053 2%, #ff4e53 4%, #f54d4c 8%, #f44b4e 15%, #ee4b50 17%, #e7484c 25%, #de4347 31%, #d84646 33%, #ca4340 44%, #c7413e 48%, #c83d42 50%, #952b2f 81%, #8e292d 83%, #8b282b 88%, #852728 90%, #7d282b 92%, #431716 96%, #2a0e0b 98%, #0e0506 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d93f3f 0%, #fa5053 2%, #ff4e53 4%, #f54d4c 8%, #f44b4e 15%, #ee4b50 17%, #e7484c 25%, #de4347 31%, #d84646 33%, #ca4340 44%, #c7413e 48%, #c83d42 50%, #952b2f 81%, #8e292d 83%, #8b282b 88%, #852728 90%, #7d282b 92%, #431716 96%, #2a0e0b 98%, #0e0506 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d93f3f', endColorstr='#0e0506', GradientType=0 ); /* IE6-9 */
+color:#611010;
+}
+section {
+	background-color: #9b9ca0;
+}
+.navbottom img {
+	margin:0 auto;
+}
+.section {
+	background-color: #fff;
+	padding: 30px 23px 5px 30px;
+	-webkit-box-shadow: 0 -10px 10px 6px #555;
+	margin: 0px 16px;
+}
+.mainhead {
+	font-size: 22px;
+	font-weight: 900;
+}
+.mainTxt p {
+	font-size:16px;
+}
+.searchBox {
+	background-color: rgb(105, 19, 19);
+	color: #fff;
+	padding-top: 20px;
+	margin-top: -10px;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+.searchBox p {
+	margin-left: 10px;
+	font-weight: 600;
+	margin-bottom: -6px;
+}
+.searchFill {
+	background-color: #fff;
+	padding: 10px 2px;
+	border: 1px solid #000;
+	max-width: 155px;
+	position: relative;
+	top: -16px;
+	left: 82px;
+}
+.imgg img {
+	max-width:40px;
+}
+.button {
+	padding: 4px 0px 16px 10px;
+	margin: 4px 0px 15px 80px;
+}
+.financeBtn {
+	background: url(../images/financeBtn.png) no-repeat;
+	padding: 6px 2px 42px 10px;
+}
+.financeBtn a {
+	color:#fff;
+	font-size:18px;
+	margin-left:20px;
+}
+.financeHead {
+}
+.featuredCarBg {
+	background-color: rgb(105, 19, 19);
+}
+.featuredHead {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: 700;
+}
+.featuredCarImg {
+	background: url(../images/carsBg.jpg) no-repeat;
+	padding: 20px 42px 20px 0;
+	text-align: center;
+	margin-top: 10px;
+}
+.featuredCarImg a {
+	font-size: 12px;
+	color: red;
+	text-decoration: underline;
+}
+.featuredCarImg a:hover {
+	text-decoration: none;
+}
+.featuredCarImg img {
+	margin: 0 auto;
+}
+.carPrice {
+	color: #fff;
+}
+footer {
+	background: #9b9ca0;
+}
+.Footer {
+	background: url(../images/footerbg.png) repeat-x;
+	margin-bottom: 15px;
+}
+.footernav {
+	text-align: center;
+	margin:0 auto;
+}
+.footernav ul {
+	list-style-type: none;
+}
+.footernav li {
+	float: left;
+}
+.footernav ul li a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+.footernav ul li span {
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+.footerTxt {
+	text-align: center;
+	padding-bottom: 7px;
+}
+.flogo img {
+	margin: 0 auto;
+}
+.copyright {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 11px;
+}
+ @media(min-width: 768px) and (max-width: 991px) {
+ .navigation {
+ background:url(../images/ipadnav.jpg) no-repeat;
+}
+ .navigation li a {
+ font-size: 12px;
+ margin-left: -5px;
+ padding: 17px 8px 16px 5px;
+}
+ .searchFill {
+ background-color: #fff;
+ padding: 9px 0px;
+ max-width: 104px;
+ top: -14px;
+ left: 75px;
+}
+ .button {
+ margin: 0px 0px 0px 46px;
+}
+ .financeBtn {
+ background: url(../images/financeBtnipad.png) no-repeat;
+ padding: 6px 2px 42px 10px;
+}
+.financeBtn a {
+ color: #fff;
+ font-size: 15px;
+ margin-left: 11px;
+}
+}
+ @media(min-width: 992px) and (max-width: 1199px) {
+ .container {
+width: inherit;
+}
+ .navigation {
+ background:url(../images/ipad2nav.jpg) no-repeat;
+ background-size:contain;
+ background-position:center;
+ margin-left: 30;
+}
+ .navigation li a {
+ font-size: 16px;
+ padding: 15px 5px 15px 5px;
+}
+ .searchFill {
+ padding: 9px 0px;
+ max-width: 114px;
+ top: -15px;
+ left: 70px;
+}
+ .button {
+ padding: 0px 0px 15px 12px;
+ margin: 4px 0px 0px 50px;
+}
+ .footernav ul li a {
+ font-size: 13px;
+}
+}
+ @media(max-width: 767px) {
+ .navigation {
+ color:#fff;
+ margin-top:2px;
+ margin-left: 12px;
+ background: none;
+ height:52px;
+}
+ .navigation ul {
+ margin: 0px;
+ list-style-type: none;
+ font-weight: bold;
+ background: #ce9351;
+}
+ .navigation ul li {
+ text-align: left;
+ background: none;
+}
+ .navigation li a {
+ color: #ffffff;
+ padding: 6px 24px 4px;
+ display: block;
+ text-decoration: none;
+ background: none;
+}
+ .section {
+ margin: 0px 8px;
+}
+ .topAddress {
+ text-align: center;
+ color: #fff;
+ font-size:12px;
+}
+ .mainLogo img {
+ margin: 0 auto;
+ max-width:170px;
+}
+ .mobileCallUs {
+}
+ .mobileCallUs a {
+ color: #000;
+}
+ .mobileCallUs a {
+ text-decoration: none;
+}
+ .callUs {
+ background-color: yellow;
+ color: #000;
+ border: 1px solid #000000;
+ padding: 6px 6px;
+ font-weight: 600;
+ float: left;
+ margin: 4px 0 0px 25px;
+ border-radius: 5px;
+ font-size: 13px;
+}
+ .callUs i {
+ color: #000;
+ font-size: 20px;
+}
+ .navbar-toggle {
+ position: relative;
+ float: right;
+ padding: 6px 10px;
+ margin-top: 0px;
+ margin-right: 15px;
+ margin-bottom: 8px;
+ background-color: transparent;
+ border: 1px solid transparent;
+ border-radius: 4px;
+}
+ .navbar-toggle .icon-bar {
+ background:	yellow;
+ padding: 4px 0px 0px 30px;
+}
+ .navbtn-xs {
+ padding: 5px;
+ background-color: #fff;
+}
+ .navbtn-xs ul {
+ margin: 0;
+ padding: 0;
+}
+ .navbtn-xs ul li {
+ border: 1px solid #000;
+ margin: 6px;
+ list-style-type: none;
+ border-radius: 4px;
+ background-color: rgb(105, 19, 19);
+}
+ .navbtn-xs ul li a {
+ display: block;
+ padding: 7px 10px;
+ font-size: 16px;
+ color: #fff;
+ text-align: center;
+}
+ .navbtn-xs li a:hover {
+ text-decoration: none;
+}
+ footer {
+ background-color: #3C3C3C;
+}
+ .footerTxt {
+ padding: 0px;
+}
+ .flogo-xs img {
+ margin: 0 auto;
+}
+}
