@@ -1,0 +1,78 @@
+body{
+	background:white;
+	border:2px solid green;
+}
+.address{
+	margin-top: 70px;
+	font-size: 18px;
+	color: #0c4da1;
+}
+.logo img{
+	margin-top: 4px;
+	margin-bottom: 44px;
+}
+.navigationWraper{
+	background: #0a4289;
+	padding:12px;
+}
+.Navigation ul{
+ list-style:none;
+}
+.Navigation li{
+ float:left;
+}
+.Navigation ul li a{
+padding:10px  16px 10px 10px;
+color:#fff;
+font-size:16px;
+}
+.bodybg{
+	margin: 40px40px;
+	border: 2px solid #cccccc;
+	padding: 10px;
+}
+.contents{
+	margin: 40px40px;
+	padding: 10px;
+}
+.contents h1{
+	color: rgb(12, 77, 161);
+	font-size: 30px;
+}
+.contents p{
+	font-size: 16px;
+	color: #666666;
+}
+.Lease-offers{
+	font-size: 24px;
+	color: #666666;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.footerWrapper{
+	background: #5e8bb5;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.footerTitle{
+	color: #ffffff;
+	font-size: 15px;
+}
+.descrip{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 100;
+}
+.footer-space p{
+	margin-top: 15px;
+	font-size: 12px
+;}
+h2 {
+  font-size: 24px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
