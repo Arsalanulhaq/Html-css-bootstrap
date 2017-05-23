@@ -1,0 +1,298 @@
+body{
+	background:white;
+	border:2px solid green;
+}
+.logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo img{
+	vertical-align: middle;
+}
+.top-address{
+	color: #ff0000;
+	font-family: 'oswald';
+}
+.toptxt{
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: right;
+}
+
+.topNum{
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'oswald';
+	color: #333333;
+	text-align: right;
+	font-weight: bold
+}
+nav{
+	background: #000000;
+	padding: 10px;
+}
+.navigation2 ul{
+	list-style: none;
+}
+.navigation2 li{
+	float: left;
+}
+.navigation2 li a{
+	color: #fff;
+	padding: 12px 20px 20px 20px;
+	font-size: 18px;
+}
+.navigation2 li a:hover{
+	background: red;
+}
+
+.search{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.search h1 {
+  font-family: 'oswald';
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.search .btn{
+	margin-top: 0px;
+	padding-left: 20px;
+	padding-right: 35px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'oswald';
+}
+.dropdown{
+	margin-left: 10px;
+	border: 2px solid #d2d2d2;
+	text-align: left;
+	color: #e40000;
+	padding: 3px;
+	font-size: 20px;
+	font-family: 'oswald';
+}
+.dropdown1{
+	background: #CAC9CF;
+	font-family: 'oswald';
+	font-size: 20px;
+	padding: 4px;
+	border: 1px solid #d2d2d2;
+	margin-left: 10px;
+}
+hr {
+	margin-bottom: 50px;
+	border: 0;
+	border-top: 4px solid #C2C2C2;
+	margin-top: 50px;
+}
+.Image {
+	padding-top: 35px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'oswald';
+	font-weight: 300;
+}
+.Image img{
+	margin: 0 auto;
+}
+.Image h2{
+	font-family: 'oswald';
+	font-weight: 100;
+	font-size: 40px;
+}
+.Image p{
+	font-family: 'oswald';
+	margin: 0 0 10px;
+	font-size: 15px;
+}
+.btn-view {
+	color: #fff;
+	background-color: #e40000;
+	border-color: #d43f3a;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0 0 0 0;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	-webkit-user-select: none;
+}
+.textFooter{
+	text-align: center;
+	font-size: 16px;
+	font-family: arial;
+	padding-bottom: 70px;
+}
+.textFooter h1{
+	font-family: 'oswald';
+	font-weight: 300;
+	font-size: 45px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.footer-nav{
+	font-family: 'oswald';
+	text-align: center;
+	font-size: 13px;
+	font-family: 'oswald';
+	margin-top: 20px;
+	padding-bottom: 18px;
+}
+.footer-nav a{
+	color: #e40000;
+}
+
+.Footer{
+	background: #464646;
+	padding: 20px;
+}
+.copyRight {
+	margin-top: 10px;
+	color: silver;
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	.navigation2 li a {
+	  padding: 22px 0px 20px 20px;
+	  font-size: 13px;
+	}
+	.toptxt {
+	  font-size: 17px;
+	}
+}
+
+
+@media(max-width: 767px){
+	.search h1 {
+	  font-family: 'oswald';
+	  font-size: 25px;
+	  font-weight: 100;
+	  padding-top: 4px;
+	  padding-bottom: 4px;
+	}
+	.dropdown{
+	margin-left: 10px;
+	border: 2px solid #d2d2d2;
+	text-align: left;
+	color: #e40000;
+	padding: 3px;
+	font-size: 14px;
+	font-family: 'oswald';
+	}
+	.dropdown1{
+	background: #CAC9CF;
+	font-family: 'oswald';
+	font-size: 14px;
+	padding: 4px;
+	border: 1px solid #d2d2d2;
+	margin-left: 10px;
+	}
+	.search .btn{
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'oswald';
+	margin-left: 100px;
+	}
+	.Image h2{
+	font-family: 'oswald';
+	font-weight: 100;
+	font-size: 20px;
+	}
+	.Image p{
+	font-family: 'oswald';
+	margin: 0 0 10px;
+	font-size: 12px;
+	}
+	.Image img{
+	margin-top: 10px;
+	max-width: 100px;
+	}
+	.btn-view {
+	color: #fff;
+	background-color: #e40000;
+	border-color: #d43f3a;
+	margin-top: 30px;
+	padding-left: 08px;
+	padding-right: 08px;
+	border-radius: 0 0 0 0;
+	}
+	.btn {
+	display: inline-block;
+	padding: 2px 08px;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	-webkit-user-select: none;
+	}
+	hr {
+	margin-bottom: 10px;
+	border: 0;
+	border-top: 4px solid #C2C2C2;
+	margin-top: 10px;
+	}
+	.textFooter{
+	text-align: center;
+	font-size: 12px;
+	font-family: arial;
+	padding-bottom: 70px;
+	}
+	.textFooter h1{
+	font-family: 'oswald';
+	font-weight: 300;
+	font-size: 18px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	}
+	.Footer{
+	padding: 0px;
+	}
+	.copyRight {
+	margin-top: 02px;
+	color: silver;
+	}
+	.Footer img{
+		max-width: 50px;
+	}
+	.logo img{
+	margin:0 auto;
+	}
+	.navbar-toggle{
+	background:#fff;
+	}
+	.navbar-toggle .icon-bar{
+	border: 2px solid #000;
+	}
+	.navigation2 li{
+	float:none;
+	}
+	.navigation2 li a{
+	color: #fff;
+	padding: 08px 08px 8px 8px;
+	font-size: 18px;
+	}
+}
