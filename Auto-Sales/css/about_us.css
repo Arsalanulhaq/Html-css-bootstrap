@@ -1,0 +1,134 @@
+
+body{
+	background-color: #003658;
+}
+.container{
+	width: 945px;
+}
+.header{
+	margin-top: 10px;
+	background: linear-gradient(to bottom, #5e95b2 0%,#3c83a8 50%,#005d8d 100%);
+	border: 2px solid #005d8d;
+	border-bottom: none;
+	border-radius: 10px;
+}
+.topTxt{
+	text-align: right;
+}
+.address{
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: right;
+	line-height: 1.5;
+}
+.topnavbg{
+	margin-bottom: 4px;
+}
+.topnavbar{
+	border-radius: 8px;
+	box-shadow: inset 0 0 12px #004162;
+	font-size: 12px;
+}
+.topnavbar a:hover{
+	color: #cd9350;
+}
+.topnavbar ul{
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;
+	font-weight: bold;
+	display: block;
+}
+.topnavbar li{
+	padding: 6px 21px 6px;
+	background: url(../images/topnavspacer.jpg) right center no-repeat;
+	float: left;
+}
+.topnavbar li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.topnavbar li:last-child {
+	background: none;
+}
+.navbg{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #cd9350;
+	border-radius: 8px;
+	background: url(../images/navShadow.jpg) center center no-repeat #cd9350;
+}
+.navigation{
+	border-radius: 8px;
+	margin: 0 auto;
+	max-width: 728px;
+	min-height: inherit;
+	background: url(../images/navBar.jpg) 0 0 repeat-x;
+	box-shadow: inset 0 0 10px #895215;
+}
+.navigation ul{
+	margin: 0px;
+	list-style-type: none;
+	font-weight: bold;
+}
+.navigation ul li{
+	text-align: center;
+	float: left;
+}
+.navigation li a{
+	color: #ffffff;
+	background: url(../images/navspacer.jpg) right center no-repeat;
+	padding: 6px 24px 4px;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+.navigation li:last-child {
+	background: none;
+}
+.navigation a:hover{
+	color: gray;
+}
+.navigation li:last-child>a {
+  background: none;
+}
+
+
+.pageContent{
+	background-color: #00263d;
+	color: #fff;
+	border-radius: 10px;
+	padding: 0px;
+}
+.pageContent h1{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.pageContent p{
+	margin: 0 0 10px;
+	font-size: 12px;
+}
+
+
+.Footer{
+	background-color: #1c4c6a;
+	border-radius: 5px;
+/*	margin: 0 0 35px;	*/
+}
+.links{
+	font-size: 10px;
+	color: #fff;
+	margin-top: 5px;
+}
+.links a{
+	color: #fff;
+}
+.links a:hover{
+	color: #cd9350;
+}
+.flogo{
+	text-align: right;
+}
