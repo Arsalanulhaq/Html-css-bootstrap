@@ -1,0 +1,32 @@
+body{
+	background:white;
+	border:2px solid green;
+}
+.Header{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+.Samp{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:1px;
+	border:1px solid red;
+}
+.Footer{
+	background-color: black;
+	color: white;
+	text-align:center;
+    padding:5px; 
+}
+.Size{
+	font-size: 19px;
+}
+.Pic{
+	width:150px height:150px;
+}
+.Sep{
+	text-align: center;
+}

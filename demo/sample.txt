@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>demo</title>
+<meta charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body >
+	<header>
+    	<div class="container">
+			<div class="row">
+				
+					<div class="col-sm-4">
+						<div class="topheader">
+							<h1>Home</h1>
+						</div>
+					</div>		
+					<div class="col-sm-4">
+						<div class="topheader">
+							<h1>About</h1>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="topheader">
+							<h1>Contact</h1>
+						</div>
+					</div>
+				</div>
+		</div>
+    </header>
+    
+	<section >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>col-12</h2>
+				</div>
+				<div class="col-sm-12">
+					<h3>Overload</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<h3>Home</h3>
+				</div>
+				<div class="col-sm-2">
+					<h3>About</h3>
+				</div>
+				<div class="col-sm-2">
+					<h3>Contact</h3>
+				</div>
+				<div class="col-sm-2">
+					<h3>Details</h3>
+				</div>
+				<div class="col-sm-2">
+					<h3>Back</h3>
+				</div>
+				<div class="col-sm-2">
+					<h3>Visit</h3>
+				</div>
+			</div>
+		</div>
+		<p><b>Section portion ended</b></p><br>
+	</section>
+	
+    <footer>
+    	<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>Footer</h4>
+				</div>
+			</div>
+		</div>
+    </footer>
+	
+</body>
+</html>
